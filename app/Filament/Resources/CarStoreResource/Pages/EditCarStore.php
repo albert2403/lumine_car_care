@@ -1,14 +1,14 @@
 <?php
 
-namespace App\Filament\Resources\CarServiceResource\Pages;
+namespace App\Filament\Resources\CarStoreResource\Pages;
 
-use App\Filament\Resources\CarServiceResource;
+use App\Filament\Resources\CarStoreResource;
 use Filament\Actions;
 use Filament\Resources\Pages\EditRecord;
 
-class EditCarService extends EditRecord
+class EditCarStore extends EditRecord
 {
-    protected static string $resource = CarServiceResource::class;
+    protected static string $resource = CarStoreResource::class;
 
     protected function getRedirectUrl(): string
     {
